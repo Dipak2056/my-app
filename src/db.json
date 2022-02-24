@@ -1,0 +1,31 @@
+[
+    {"id":1,
+    "brand":"Dipak",
+    "discount":"less than 10%",
+    "form":"mask",
+    "use":"respiratory"
+},
+    {"id":2,
+    "brand":"Dipak",
+    "discount":"less than 10%",
+    "form":"mask",
+    "use":"respiratory"
+},
+    {"id":3,
+    "brand":"Dipak",
+    "discount":"less than 10%",
+    "form":"mask",
+    "use":"respiratory"
+},
+    {"id":4,
+    "brand":"Dipak",
+    "discount":"less than 10%",
+    "form":"mask",
+    "use":"respiratory"
+},
+    {"id":5,
+    "brand":"Dipak",
+    "discount":"less than 10%",
+    "form":"mask",
+    "use":"respiratory"
+}]

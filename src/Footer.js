@@ -1,5 +1,6 @@
 import { Component } from "react";
 import React from 'react';
+import './footer.css';
 
 class Footer extends Component {
     constructor() {
@@ -11,19 +12,27 @@ class Footer extends Component {
     }
 
     handleChange = (event) =>{
-       // console.log(event.target.value);
         this.setState({keyword:event.target.value});
     }
     state = {  }
     render() { 
-        console.log('render');
+        // const myStyle = {
+        //     // header:{
+        //     //     backgroundColor:'tomato'
+        //     // },
+        //     // logo:{
+        //     //     color:'white',
+        //     //     textAlign:'center',
+        //     //     fontSize:'30px'
+        //     // }
+        // }
         return ( 
-            <div><h1>{this.state.title}</h1>
+            <header><h1>{this.state.title}</h1>
             <input onChange={this.handleChange}/>
-            <div>
+            <div style={{color:'white',fontSize:'30px'}}>
                 {this.state.keyword}
             </div>
-            </div>
+            </header>
          );
     }
 }
